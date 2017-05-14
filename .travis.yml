@@ -1,0 +1,15 @@
+sudo: required
+
+language: c
+
+services:
+  - docker
+
+before_install:
+  - docker info
+  - docker build -t jdk-version 8-jdk/
+  - docker build -t jre-version 8-jre/
+
+script:
+  - docker run -it --rm jdk-version java -version && docker --version 
+  - docker run -it --rm jre-version java -version && docker --version 
