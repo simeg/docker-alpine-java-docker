@@ -1,4 +1,4 @@
-# AlpineLinux + Java + Docker
+# AlpineLinux + Java + Docker [![Build Status](https://travis-ci.org/simeg/docker-alpine-java-docker.svg?branch=master)](https://travis-ci.org/simeg/docker-alpine-java-docker)
 This image is based on [AlpineLinux](https://alpinelinux.org/) and has Bash, Java 8 (JDK/JRE) and Docker installed.
 
 ## JDK vs. JRE
